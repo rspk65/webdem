@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /webdem
-    destination: /var/www/html/webdem
+  - source: /drupal-beanstalk
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/start_server
